@@ -1,0 +1,23 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012a (7.14.0.739) 64-bit (glnxa64)
+                              February 9, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> {Warning: Directory already exists.} 
+{> In activity_recognition_demo at 87} 
+{Error using diary
+opt_corrupt_Prob_0.00_groundtruth_C0.30_E0.40_W3_tfeat_on_Thre1.0_learning/groundtruth_Z1_C0.30_E0.40_W3_tfeat_on_Thre1.0_learning_iter1_Test4.log:
+Cannot open file: permission denied.
+
+Error in make_log (line 6)
+diary(logfile)
+
+Error in activity_recognition_demo (line 124)
+      make_log(logfile); % LOG file
+} 
+>> >> 
